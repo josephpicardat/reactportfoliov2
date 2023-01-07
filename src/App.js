@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioNavBar from './components/Navbar';
+import PortfolioNavBar from './components/Nav';
 import SideLinks from './components/SideLinks';
 import StartingPage from './pages/StartingPage';
 import About from './pages/About';
