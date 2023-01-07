@@ -23,6 +23,7 @@
 }
 
 .navbarCSS {
+  z-index: 10;
   overflow: hidden;
   background-color: var(--transparent_background);
   box-shadow: 0 10px 15px var(--transparent_background);

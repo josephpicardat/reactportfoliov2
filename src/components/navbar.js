@@ -1,10 +1,9 @@
-// import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/JP Logo.png';
 import './css/navbar.css';
 
-function PortfolioNavBar() {
+const PortfolioNavBar = () => {
   return (
     <Navbar className="navbarCSS" expand="lg">
       <Navbar.Brand id="navbarImgbackground" href="#home">
@@ -32,6 +31,6 @@ function PortfolioNavBar() {
       </Navbar.Collapse>
     </Navbar>
   );
-}
+};
 
 export default PortfolioNavBar;
