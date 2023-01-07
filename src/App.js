@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioNavBar from './components/Navbar';
+// import PortfolioNavBar from './components/Navbar';
 import SideLinks from './components/SideLinks';
 import StartingPage from './pages/StartingPage';
 import About from './pages/About';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="wrapper">
       <SideLinks />
-      <PortfolioNavBar />
+      {/* <PortfolioNavBar /> */}
       <StartingPage />
       <About />
       <Work />
