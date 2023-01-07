@@ -1,7 +1,7 @@
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
-// import logo from '../assets/JP Logo.png';
-// import './css/navbar.css';
+import logo from '../assets/jpLogo.png';
+import './css/navbar.css';
 
 const PortfolioNavBar = () => {
   console.log('bob');
