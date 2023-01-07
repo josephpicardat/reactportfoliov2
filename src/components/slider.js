@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import PeaceofMind from '../assets/peaceOfMindv2.png';
 import RecipeIO from '../assets/recipeIOcard.png';
 import Gifter from '../assets/gifter.png';
-import { Anchor } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './css/slider.css';
