@@ -1,0 +1,50 @@
+.navbarText a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--green) !important;
+  text-decoration: none;
+}
+
+.navbarText a:hover {
+  color: var(--green);
+}
+
+.nav_numbers {
+  color: var(--green);
+  padding-right: 3px;
+}
+
+.logo {
+  max-width: 70px;
+  position: relative;
+}
+
+.navbarCSS {
+  overflow: hidden;
+  background-color: var(--transparent_background);
+  box-shadow: 0 10px 15px var(--transparent_background);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  position: fixed !important;
+  top: 0;
+}
+
+.logo,
+#navbarImgbackground,
+.navbarText,
+.linkDiv,
+.navLinks,
+.nav_numbers {
+  background-color: transparent;
+}
+
+.linkDiv {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}

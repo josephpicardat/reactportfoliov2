@@ -1,0 +1,50 @@
+/* Slider */
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.sliderWrapper {
+  width: 100%;
+  margin-top: 10%;
+}
+
+#workHeader {
+  width: 100%;
+  text-align: center;
+}
+
+/* Work Cards */
+
+.workCard {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.imageContainer {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.workLinksWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.workImages {
+  display: inline-block !important;
+  /* justify-content: center !important;
+    align-items: center !important; */
+  max-height: 20rem;
+  width: auto;
+  margin: 0 !important;
+}

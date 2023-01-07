@@ -2,6 +2,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/JP Logo.png';
+import './css/navbar.css';
 
 function PortfolioNavBar() {
   return (
@@ -16,7 +17,7 @@ function PortfolioNavBar() {
       >
         <Nav className="linkDiv">
           <Nav.Link href="#about-me" className="navLinks">
-            <span class="nav_numbers">01. </span>About Me
+            <span className="nav_numbers">01. </span>About Me
           </Nav.Link>
           <Nav.Link href="#pastWork" className="navLinks">
             <span className="nav_numbers">02. </span>Work

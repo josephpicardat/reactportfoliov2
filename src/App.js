@@ -1,25 +1,23 @@
 import React from 'react';
-import PortfolioNavBar from './components/navbar';
-import PortfolioBody from './pages/body';
+import PortfolioNavBar from './components/Navbar';
+import SideLinks from './components/SideLinks';
+import StartingPage from './pages/StartingPage';
+import About from './pages/About';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import ViewSDKClient from './components/resume';
 
 function App() {
-  let component;
-  switch (window.location.pathname) {
-    default:
-      component = <PortfolioBody />;
-      break;
-    case '/resume':
-      component = <resume />;
-      break;
-  }
   return (
-    <>
+    <div className="wrapper">
+      <SideLinks />
       <PortfolioNavBar />
-      {component}
-    </>
+      <StartingPage />
+      <About />
+      <Work />
+      <Contact />
+    </div>
   );
 }
 

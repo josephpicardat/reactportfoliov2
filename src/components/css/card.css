@@ -1,0 +1,22 @@
+/* Work Cards */
+
+.cardWrapper {
+  height: 90%;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.card {
+  width: auto;
+  height: 100%;
+}
+
+.workImages {
+  aspect-ratio: 19.5/9;
+  height: 100%;
+  width: 50px;
+}

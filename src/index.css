@@ -2,6 +2,8 @@
   font-family: 'Times New Roman', Times, serif;
   color: var(--off_white);
   background-color: var(--background);
+  margin: 0;
+  padding: 0;
 }
 
 body {
