@@ -1,5 +1,5 @@
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/jpLogo.png';
 import './css/navbar.css';
 
