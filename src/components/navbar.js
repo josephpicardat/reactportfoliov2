@@ -4,6 +4,7 @@ import logo from '../assets/JP Logo.png';
 import './css/navbar.css';
 
 const PortfolioNavBar = () => {
+  console.log('bob');
   // return (
   //   <Navbar className="navbarCSS" expand="lg">
   //     <Navbar.Brand id="navbarImgbackground" href="#home">
