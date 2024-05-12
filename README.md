@@ -26,7 +26,7 @@ What did I learn?
 
 ## Usage
 
-![Porfolio home page](./src/assets/Portfolio.png)
+![Porfolio home page](./src/assets/portfolio.png)
 
 ## Questions
 
