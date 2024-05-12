@@ -7,6 +7,7 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -52,22 +53,21 @@ function App() {
     }, [activeSection]);
 
     return (
-        <div className='wrapper'>
-            {/* <SideLinks /> */}
-            {/* <NavBar
-                activeSection={activeSection}
-                setActiveSection={setActiveSection}
-            /> */}
-            <MuiNavbar
-                activeSection={activeSection}
-                setActiveSection={setActiveSection}
-            />
-            <StartingPage id='home' />
-            <About id='about-me' />
-            <Work id='pastWork' />
-            <Contact id='contact' />
-            <Footer />
-        </div>
+        <Router basename='/bank-website'>
+            <Route path='/:path(|svb-home)'>
+                <div className='wrapper'>
+                    <MuiNavbar
+                        activeSection={activeSection}
+                        setActiveSection={setActiveSection}
+                    />
+                    <StartingPage id='home' />
+                    <About id='about-me' />
+                    <Work id='pastWork' />
+                    <Contact id='contact' />
+                    <Footer />
+                </div>
+            </Route>
+        </Router>
     );
 }
 
