@@ -1,36 +1,55 @@
 .navbarText a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    /* width: 100%; */
 }
 
-.navbar-nav .nav-link.active {
-  color: var(--green) !important;
-  text-decoration: none;
+/* .navbar-nav .nav-link.active {
+    color: white !important;
+    text-decoration: none;
+} */
+
+.navbar-toggler {
+    border: none !important;
+    color: transparent !important;
 }
 
-.navbarText a:hover {
-  color: var(--green);
+.navbar-toggler span .navbar-toggler-icon {
+    color: #05fdf8;
+}
+
+.navbar-toggler-icon {
+    color: #05fdf8 important;
+}
+
+.navLinks.active {
+    color: var(--green) !important;
+    text-decoration: none;
+}
+
+.navLinks:hover {
+    color: var(--green) !important;
 }
 
 .nav_numbers {
-  color: var(--green);
-  padding-right: 3px;
+    color: var(--green);
+    padding-right: 3px;
 }
 
 .logo {
-  max-width: 70px;
-  position: relative;
+    max-width: 70px;
+    position: relative;
 }
 
 .navbarCSS {
-  z-index: 10;
-  overflow: hidden;
-  background-color: var(--transparent_background);
-  box-shadow: 0 10px 15px var(--transparent_background);
-  backdrop-filter: blur(5px);
-  width: 100vw;
-  position: fixed !important;
-  top: 0;
+    z-index: 10;
+    overflow: hidden;
+    background-color: var(--transparent_background);
+    box-shadow: 0 10px 15px var(--transparent_background);
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    position: fixed !important;
+    top: 0;
 }
 
 .logo,
@@ -39,13 +58,47 @@
 .linkDiv,
 .navLinks,
 .nav_numbers {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .linkDiv {
-  margin-right: 2rem;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for screens with a minimum width of 1280 */
+@media screen and (min-width: 1280px) {
+    .linkDiv {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992) and (max-width: 1279px) {
+    .linkDiv {
+        width: 60%;
+    }
+}
+
+.individualContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.downloadWrapper {
+    width: 24px;
+    height: 24px;
+}
+
+#download {
+    width: 100%;
+    vertical-align: bottom;
+    margin-bottom: -1.7px;
+}
+
+#download:hover {
+    color: #05fdf8;
 }
